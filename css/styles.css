@@ -1,0 +1,88 @@
+body {
+    margin: 0; 
+    padding: 0;
+}
+@font-face { 
+    font-family: 'Abeakrg';
+    src: url('ABEAKRG.ttf');
+} 
+#page{ 
+    position: relative; 
+    width: 100%; 
+    height: 1550px; 
+    margin: auto;
+} 
+body{ 
+    background:url('../rsc/imgs/bg.png') no-repeat center; 
+    overflow-x: hidden; 
+    font-family: 'Abeakrg';
+}
+header{ 
+    position: fixed;
+    height: 180px; 
+    background:#FFF; 
+    transform:rotate(-3deg);
+    top: -100px; 
+    width: 101%; 
+    left: -5px; 
+    z-index: 1;
+    border:15px solid transparent; 
+    border-image:url('../rsc/imgs/border.png') 30 30 round;
+    box-shadow: 12px 0px 42px #000; 
+} 
+nav ul li{ 
+    display: inline;
+    padding: 15px; 
+    padding-top: 55px; 
+    background:url('../rsc/imgs/mnubg.png') 0px -110px no-repeat; 
+} 
+nav ul{ 
+    position: absolute; 
+    top: 130px; 
+    right: 30px; 
+    padding: 5px; 
+} 
+nav a{ 
+    text-decoration: none; 
+    color: #FFF; 
+    font-weight: bold; 
+    color: #888; 
+} 
+nav li a:hover{ 
+    color: #0783C4; 
+} 
+#logo{ 
+    position: absolute; 
+    left: 40px; 
+    width: 200px; 
+    height: 118px; 
+    top: 80px; 
+}
+
+#main{
+    position:relative;
+    width: 100%;
+    height: 880px;
+    background: #FFF;
+    top:500px;
+    background: radial-gradient(ellipse at center, #ffffff 57%, #e6e6e6 87%, #ededed 100%);
+}
+
+#banner {
+    font-size: 112px;
+    position: absolute;
+    top: -275px;
+    right: 20px;
+    color: #EEEEEE;
+    text-shadow: 5px 5px 15px #000;
+    z-index: -1;
+    line-height: 90px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 30px;
+    color: #333;
+}
